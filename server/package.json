@@ -1,0 +1,30 @@
+{
+  "name": "pwa_push_server_server",
+  "version": "1.0.0",
+  "description": "Web Push Server - Server",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "vapid": "node_modules/web-push/src/cli.js generate-vapid-keys --json > vapid.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pmtargosz/pwa_push_server.git"
+  },
+  "author": "Pawel Targosz <pmtargosz@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pmtargosz/pwa_push_server/issues"
+  },
+  "homepage": "https://github.com/pmtargosz/pwa_push_server#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "helmet": "^3.16.0",
+    "node-storage": "0.0.7",
+    "web-push": "^3.3.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}

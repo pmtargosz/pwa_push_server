@@ -1,0 +1,23 @@
+body {
+    font-family: 'Lato', sans-serif;
+    padding: 0 1rem;
+    text-align: center;
+}
+
+button {
+    background-color: green;
+    border-radius: 5px;
+    border: 0 none;
+    color: white;
+    cursor: pointer;
+    font-size: 2rem;
+    padding: .5rem 3rem;
+}
+
+#unsubscribe button {
+    background-color: red;
+}
+
+.hidden {
+    display: none;
+}
